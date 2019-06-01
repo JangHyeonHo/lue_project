@@ -1,5 +1,13 @@
 package com.luepro.starter.character.service;
 
-public class CharacterCreateService {
+import org.springframework.stereotype.Service;
 
+@Service
+public class CharacterCreateService {
+	
+	
+
+	public Integer CreateChara(com.luepro.starter.character.model.Character chara) {
+		return null;
+	}
 }

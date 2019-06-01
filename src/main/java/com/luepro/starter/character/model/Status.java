@@ -109,5 +109,8 @@ public class Status {
 		this.criticalRate = criticalRate;
 		return this;
 	}
+	public int getAllStatusPoint() {
+		return str+dex+intel+luc;
+	}
 	
 }
